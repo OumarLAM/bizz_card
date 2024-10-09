@@ -9,7 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -18,4 +18,9 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/
+    - assets/profile.jpeg
+    - assets/frame.png
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: fonts/Montserrat-VariableFont_wght.ttf
